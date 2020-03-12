@@ -1,0 +1,11 @@
+{
+  "filters": [
+    {
+      "title": "City Of Residence",
+      "format": "string",
+      "optional": false,
+      "id": "city_of_residence",
+      "limit_length": 50
+    }
+  ]
+}
