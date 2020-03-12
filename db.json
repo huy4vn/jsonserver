@@ -1,11 +1,2319 @@
 {
-  "filters": [
+   "visa_products": [
     {
-      "title": "City Of Residence",
-      "format": "string",
-      "optional": false,
-      "id": "city_of_residence",
-      "limit_length": 50
+      "id": 100061,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 145,
+        "visa_price": 145,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100060,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 110,
+        "visa_price": 110,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100021,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 175,
+        "visa_price": 175,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100020,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 140,
+        "visa_price": 140,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100017,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 225,
+        "visa_price": 225,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100016,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 190,
+        "visa_price": 190,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100013,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "6M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "6M"
+      },
+      "price": {
+        "amount": 235,
+        "visa_price": 235,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100012,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "6M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "6M"
+      },
+      "price": {
+        "amount": 200,
+        "visa_price": 200,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100005,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 215,
+        "visa_price": 215,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100002,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 135,
+        "visa_price": 135,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100001,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 100,
+        "visa_price": 100,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100079,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 135,
+        "visa_price": 105,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100078,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 110,
+        "visa_price": 80,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100073,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 180,
+        "visa_price": 125,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100072,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 160,
+        "visa_price": 105,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100039,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 145,
+        "visa_price": 115,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100038,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 135,
+        "visa_price": 105,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100033,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 190,
+        "visa_price": 135,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100032,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 185,
+        "visa_price": 130,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100006,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 250,
+        "visa_price": 250,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100056,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 165,
+        "visa_price": 165,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100057,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 200,
+        "visa_price": 200,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8096,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8097,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8100,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8101,
+      "visa_country": "VNM",
+      "category": "DN",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "1d",
+      "purpose": "business",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100063,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 145,
+        "visa_price": 145,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100062,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 110,
+        "visa_price": 110,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100059,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 200,
+        "visa_price": 200,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100058,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 165,
+        "visa_price": 165,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100023,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 175,
+        "visa_price": 175,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100022,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 140,
+        "visa_price": 140,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100019,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 225,
+        "visa_price": 225,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100018,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 190,
+        "visa_price": 190,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100015,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "6M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "6M"
+      },
+      "price": {
+        "amount": 235,
+        "visa_price": 235,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100014,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "6M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "6M"
+      },
+      "price": {
+        "amount": 200,
+        "visa_price": 200,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100008,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 250,
+        "visa_price": 250,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100004,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 135,
+        "visa_price": 135,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100003,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 100,
+        "visa_price": 100,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100082,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 135,
+        "visa_price": 105,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100081,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 85,
+        "visa_price": 55,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100076,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 160,
+        "visa_price": 105,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100075,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1M"
+      },
+      "price": {
+        "amount": 125,
+        "visa_price": 70,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100042,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 165,
+        "visa_price": 135,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100041,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "single_entry",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "single_entry",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 110,
+        "visa_price": 80,
+        "additional_fee": {
+          "government_stamp_fee": 25,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100036,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 170,
+        "visa_price": 115,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100035,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "3M",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "3M"
+      },
+      "price": {
+        "amount": 155,
+        "visa_price": 100,
+        "additional_fee": {
+          "government_stamp_fee": 50,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100010,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 230,
+        "visa_price": 90,
+        "additional_fee": {
+          "government_stamp_fee": 135,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100009,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 205,
+        "visa_price": 65,
+        "additional_fee": {
+          "government_stamp_fee": 135,
+          "voa_visa_fastlane": 5
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 100007,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 215,
+        "visa_price": 215,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8098,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8099,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "5y",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "5y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8102,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "regular",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 0.01,
+        "visa_price": 0.01,
+        "additional_fee": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8104,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "3d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "3d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 0.03,
+        "visa_price": 0.01,
+        "additional_fee": {
+          "government_stamp_fee": 0.01,
+          "voa_visa_fastlane": 0.01
+        },
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8105,
+      "visa_country": "VNM",
+      "category": "DL",
+      "issue_method": "voa",
+      "visa_number_of_entries": "multiple_entries",
+      "visa_validity": "1y",
+      "visa_processing_time": "1d",
+      "purpose": "tourist",
+      "extended_services": [
+        {
+          "id": 1,
+          "status": "active",
+          "name": "immigration_fastlane_departure",
+          "currency": "USD",
+          "price": 15,
+          "discount": 0,
+          "description": null
+        },
+        {
+          "id": 2,
+          "status": "active",
+          "name": "immigration_fastlane_arrival",
+          "currency": "USD",
+          "price": 10,
+          "discount": 0,
+          "description": null
+        }
+      ],
+      "attributes": {
+        "number_of_entries": "multiple_entries",
+        "processing_time": "1d",
+        "validity": "1y"
+      },
+      "price": {
+        "amount": 0.03,
+        "visa_price": 0.01,
+        "additional_fee": {
+          "government_stamp_fee": 0.01,
+          "voa_visa_fastlane": 0.01
+        },
+        "currency": "USD"
+      }
     }
   ]
 }
